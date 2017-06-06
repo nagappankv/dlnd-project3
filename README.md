@@ -1,29 +1,23 @@
 # dlnd-project3
 Generate TV Scripts using RNN
 
-Environment: Tensorflow 1.0
+## Environment: Tensorflow 1.0
 floyd run --cpu --env tensorflow-1.0 --mode jupyter
 
-Hyperparameters Used:
-# Number of Epochs
+## Hyperparameters Used:
 num_epochs = 100
-# Batch Size
 batch_size = 128
-# RNN Size
 rnn_size = 256
-# Embedding Dimension Size
 embed_dim = 256
-# Sequence Length
 seq_length = 15
-# Learning Rate
 learning_rate = 0.006
-# Show stats for every n number of batches
 show_every_n_batches = 15
 
+## Train
 train_loss = 0.230
 
 
-Generated Script:
+## Generated Script:
 moe_szyslak: why youse! correcting me on my knowledge of wood products!
 homer_simpson:(desperate) here's there that's not the day, will you give moe?
 homer_simpson: ohh, i could never seen a guy like you, do?
